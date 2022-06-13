@@ -1,0 +1,18 @@
+{
+    "folders": [
+        {
+            "path": "folder-a"
+        },
+        {
+            "path": "folder-b"
+        }
+    ],
+    "settings": {
+        "editor.detectIndentation": false,
+        "[terraform-vars, terraform, tf]": {
+            "editor.tabSize": 2,
+            "editor.formatOnSave": true,
+            "editor.defaultFormatter": "hashicorp.terraform"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "steps": [
+        {
+            "listitem": "Installing management tools...",
+            "icon": "SF=terminal,colour=#4175C4,weight=medium",
+            "trigger_list": [
+                {
+                    "trigger": "install-Python",
+                    "path": "/usr/local/bin/managed_python3"
+                },
+                {
+                    "trigger": "install-Nudge",
+                    "path": "/Applications/Utilities/Nudge.app/Contents/Info.plist"
+                },
+                {
+                    "trigger": "install-Outset",
+                    "path": "/usr/local/outset/outset"
+                }
+            ]
+        },
+        {
+            "listitem": "Configuring Single Sign-On...",
+            "icon": "SF=person.crop.circle.badge.checkmark,colour=#4175C4,weight=medium",
+            "trigger_list": [
+                {
+                    "trigger": "install-nomad",
+                    "path": "/Applications/NoMAD.app/Contents/Info.plist"
+                },
+                {
+                    "trigger": "install-Microsoft_Company_Portal",
+                    "path": "/Applications/Company Portal.app/Contents/Info.plist"
+                }
+            ]
+        }
+    ]
+}
