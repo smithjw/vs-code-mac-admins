@@ -1,1 +1,10 @@
-{}
+{
+    "folders": [
+        {
+            "path": "my-folder-a"
+        },
+        {
+            "path": "my-folder-b"
+        }
+    ]
+}
